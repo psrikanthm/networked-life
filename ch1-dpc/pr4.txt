@@ -1,0 +1,58 @@
+*************************************************
+	Mechanism Design	
+*************************************************
+
+In the following game payoffs of Alice and Bob are - 
+
+		Alice - a	Alice - b
+Bob - a  	(0, 2)		(2, 0)
+Bob - b		(6, 0)		(3, 2)
+
+1) Is there a Nash equilibrium ? What is it ?
+
+Ans:
+	If Alice chooses a; Bob gets 2 by playing a (> 0)
+		(a, a)
+	If Alice chooses b; Bob gets 2 by playing b (> 0)
+		(b, b)
+
+	If Bob chooses a; Alice gets 2 by playing b (> 0)
+		(b, a)
+	If Bob chooses b; Alice gets 6 by playing a (> 3)
+		(a, b)
+	
+	So a Nash Equilibrium doesn't exist in this game.
+
+2) Change the entries in such a way that resulting Nash equilibrium
+   is unique and socially optimal.
+
+   Lets try making (a, b) a unique nash equilibrium. So a should be 
+   best response strategy for Alice and b should be best response strategy
+   for Bob.
+ 
+	If Alice chooses a; Bob should get > 2 to make him 
+	play b. Lets make the payoff 3
+	
+	If Alice chooses b; Bob already gets 2 by playing b
+
+	If Bob chooses a; Alice should get > 2 (< 6) to make her 
+	play a. Lets make the payoff 3
+
+	If Bob chooses b; Alice gets 6 by playing a (> 3).
+
+	So the table becomes - 
+
+                Alice - a       Alice - b
+Bob - a         (3, 2)          (2, 0)
+Bob - b         (6, 3)          (3, 2)
+
+	Let's check if it is unique - 
+		Alice a; Bob b (3 > 2) - (a, b)
+		Alice b; Bob b (2 > 0) - (b, b)
+
+		Bob a; Alice a (3 > 2) - (a, a)
+		Bob b; Alice a (6 > 3) - (a, b)
+
+	This equilibrium is also socially optimal (6 + 3)
+
+	

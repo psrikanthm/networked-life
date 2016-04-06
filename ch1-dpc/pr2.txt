@@ -1,0 +1,13 @@
+*************************************************
+	Power Control Infeasibility
+*************************************************
+
+When does a set of target SIRs with fixed channel
+conditions (Gain Matrix, Noise) are not possible to 
+achieve ?
+
+Graph: In pr2.png it can be observed that 
+the transmitted powers are continously increasing and
+not converging. The transmitters end up in a non-ending 
+competition to reach their target SNRs and eventually reach 
+a state where it is not feasible increase any power.

@@ -1,0 +1,34 @@
+*************************************************
+	Zero-Sum Game	
+*************************************************
+
+In the following game payoffs of Alice and Bob are 
+exactly opposite to each other. 
+
+		Alice - a	Alice - b
+Bob - a  	(2, -2)		(3, -3)
+Bob - b		(3, -3)		(4, -4)
+
+Is there a pure strategy equilibrium ? How many
+are there ?
+
+Ans:
+	If Alice chooses a; Bob gets 3 by playing b (> 2)
+		(a, b)
+	If Alice chooses b; Bob gets 4 by playing b (> 3)
+		(b, b)
+
+	So no matter what Alice chooses, the best response
+	strategy for Bob is b
+
+	If Bob chooses a; Alice gets -2 by playing a (> -3)
+		(a, a)
+	If Bob chooses b; Alice gets -3 by playing a (> -4)
+		(a, b)
+
+	So no matter what Bob chooses, the best response
+	strategy for Alice is a
+
+	(a, b) is the dominant strategy. 
+	There is one pure strategy nash equilibrium, which is 
+	(a, b).

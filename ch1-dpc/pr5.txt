@@ -1,0 +1,46 @@
+*************************************************
+	Repeating Prisonner's Dilemma	
+*************************************************
+
+a) Suppose the two prisonner's know that they will 
+somehow be caught in the same situation five more times 
+in future years. What will each prisoner's strategy
+be in choosing between confession and no confession ?
+
+By Backward Induction. 
+
+Round 5 - This is a normal prisoner's dilemma, both players
+are trying to maximize their payoffs. And hence their best response
+strategy is going to be confess
+
+	Round - 1 2 3 4 5
+			C
+
+Round 4 - They knew that they are going to confess in the 5th
+round, so co-operative contingent strategy doesn't work
+anymore. Both players will try to maximize their payoffs as
+in normal prisoner's dilemma.
+
+	Round - 1 2 3 4 5
+		      C C
+
+This way we can prove that the players are going to confess in 
+all other rounds.
+
+	Round - 1 2 3 4 5
+		C C C C C
+
+b) Suppose the two prisoners have infinite lifetimes,
+and there is always a 90% chance that they will be 
+caught in the same situation after each round of this
+game. What will each prisoner's strategy be now ?
+
+Since there are high chances (90 %) that the prisoners 
+are going to end up in the same situation it is possible that
+they will see the game in a different light. Intutively, long term 
+relationships are fundamentally different from one-shot meetings.
+Instead of maximising their individual payoffs by confessing they
+may adopt to co-operative contingent strategy ( don't confess 
+unless the other one confesses ) along the way. 
+Hence in case of infinitel repeated with 90 % chance the equilibrium 
+is (No Confess, No Confess)

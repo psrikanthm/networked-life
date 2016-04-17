@@ -1,0 +1,18 @@
+#################################################################
+#	Spectrum Auction and package bidding			#
+#################################################################
+
+a) Since it is simultaneous ascending auction, each seat is valued 
+   independently. Bidder 1 guesses that Bidder 2 values the seat for 
+	$10. So Bidder 1 has to bid each seat for > $10 which will 
+	result in negative payoff > $5.
+	If Bidder 1 does truthful bidding, she won't get the seat.
+	And Bidder 2 can get the seat at truthful bidding $10
+
+
+b) In package bidding, If Bidder 1 guesses  the combined value at $12
+	she will make the bid for two seats at > $12 say, $13
+
+	Payoffs:
+		Bidder 1 - $15 - $13 = $2
+		Bidder 2 - 0

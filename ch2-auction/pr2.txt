@@ -1,0 +1,31 @@
+#################################################################
+#		eBay Auction				        #
+#################################################################
+Bidder 1 = Alice
+Bidder 2 = Bob
+Bidder 3 = Chris
+
+Start:	
+	Highest bid: n/a; Ask Price: $7.00
+
+Day1: Alice uses proxy agent and bids $7.25
+	Highest bid: Alice, $7.25; Ask Price: $7.50
+
+Day2: Bob bids $9.25, proxy agent raises Alice bid to $9.50
+	Ask price is min{$9.50 , $9.25 + 0.25} + 0.25
+	Highest bid: Alice, $9.50; Ask Price: $9.75
+
+Day3: Chris bids $10.00, Alice raises bid to $10.25....the price war goes 
+	on between Alice and Chris and Chris will make the highest bid 
+	at $11.25. Ask price is min{11.25, 11.00 + 0.25} + 0.25
+	Highest bid: Chris, $11.25; Ask Price: $11.50
+
+Day4: Bob bids $13.65, Chris's proxy agent raises the bid to
+	$13.90. Ask price is min{$13.90, $13.65 + 0.25} + 0.25
+	Highest bid: Chris, $13.90; Ask Price: $14.15
+
+Day5: Alice bids $27.45, it is more than Chris's maximum of $17.25
+      so proxy agent won't make a bid. 
+	Ask price is min{$27.45, $13.90 + 0.25} + 0.25
+	
+	Alice buys the lamp for $14.40

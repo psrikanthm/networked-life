@@ -1,0 +1,36 @@
+#################################################################
+#		More Items than buyers				#
+#################################################################
+
+a) Assuming that the spots are allocated starting from top spot.
+ 
+	if b1[1] > b2[1] ; Alice Payoff is 500r - b2[1]
+
+	if b1[1] < b2[i] ; Alice loses the top spot and will get 
+			   2nd spot (400 rate). Since there is no 
+			   competition for that as a bidder can one 
+			   at most one spot, reserved price will be 
+			   charged for that.
+			   300r - min(300)
+
+b) If Alice bids less than her true valuation:
+	b1[1] < 500r
+	b1[2] < 300r
+	b1[3] < 200r
+    
+    And b1[1] > b2[1] ; Alice's payoff is 500r - b2[1]  = No change
+	b1[1] < b2[i] ; Alice's payoff is 300r - min(300) = No change
+
+   If Alice bids more than her true valuation:
+	b1[1] > 500r
+	b1[2] > 400r
+	b1[3] > 300r
+
+    And b1[1] > b2[1] ; Alice's payoff is 500r - b2[1] and 
+			if b2[1] > 500r ; Negative payoff
+	b1[1] < b2[1] ; Alice's payoff is 300r - min(300) = No change
+
+So, truthful bidding seems to be the dominant strategy for Alice. But 
+depending on the minimum rates and $r per click, Alice might shade her bid 
+and bid less than true valuation. And the worst payoff in that case is
+	300r - min(300), which could be more than 500r - b2[1]

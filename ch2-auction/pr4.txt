@@ -1,0 +1,13 @@
+#################################################################
+#		Reverse Auction					#
+#################################################################
+
+a) Payoff function for seller i as a function of b1, b2 and b3
+	Ui = Pi(b) - Vi
+	if min{b1, b2, b3} = b1
+		Pi(b) = min{b2,b3}
+	=> Ui = min{b1,b2,..bi-1,bi+2,...bn} -Vi 
+	
+
+b) Yes, truthful bidding is a dominant strategy. It can be proved 
+	using the same methodology of multiple bidders and single item.

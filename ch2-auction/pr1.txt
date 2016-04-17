@@ -1,0 +1,19 @@
+#################################################################
+#		Ad Space Auction				#
+#################################################################
+
+Revenue      Bidder    Valuation        Ad Space     Clickthrough
+per click						rate
+
+$6	     1         [$3000,$1800]	A	     500
+$4           2         [$2000,$1200]    B            300
+$3           3         [$1500,$900]
+
+a) Matching:
+     A -> Bidder 1 -> Price Charged = $2000
+     B -> Bidder 2 -> Price Charged = $900
+
+b) Payoffs:
+	Bidder 1 -> $3000 - $2000 = $1000
+	Bidder 2 -> $1200 - $900 = $300
+	Bidder 3 -> 0

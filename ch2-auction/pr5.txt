@@ -9,6 +9,8 @@ a) Since it is simultaneous ascending auction, each seat is valued
 	If Bidder 1 does truthful bidding, she won't get the seat.
 	And Bidder 2 can get the seat at truthful bidding $10
 
+   By not allowing package bidding, one of the seat is left unused.
+   And the potential revenue to organiser reduced by $5
 
 b) In package bidding, If Bidder 1 guesses  the combined value at $12
 	she will make the bid for two seats at > $12 say, $13
